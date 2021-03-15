@@ -1,0 +1,47 @@
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
+
+@import "reset.css";
+@import "variables.css";
+
+/* Components */
+@import "components/status-bar.css";
+@import "components/no-mobile.css";
+@import "components/screen-header.css";
+@import "components/user-component.css";
+@import "components/nav-bar.css";
+@import "components/badge.css";
+
+@import "components/alt-screen-header.css";
+@import "components/icon-row.css";
+
+/* Screens */
+@import "screens/login.css";
+@import "screens/friends.css";
+@import "screens/chat.css";
+@import "screens/more.css";
+@import "screens/settings.css";
+
+body {
+  	color: #2e363e;
+	font-family: 'NanumSquare', sans-serif;
+	font-weight: bold;
+}
+
+.main-screen {
+	padding: 0px var(--horizontal-space);
+}
+
+.main-screen__ad {
+	width: 95%;
+	height: 70px;
+	border-radius: 10px;
+	padding: 15px;
+	background-color: black;
+	color: orange;
+	font-size: 50px;
+	margin-bottom: var(--horizontal-space);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+

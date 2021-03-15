@@ -1,0 +1,44 @@
+.more-screen .icon-row {
+	margin-top: 35px;
+}
+
+.icon-row {
+	margin-top: 50px;
+	border-top: var(--main-border);
+	padding-top: 40px;
+}
+
+.more-pay {
+	margin-top: var(--horizontal-space);
+}
+
+.more-pay__plus {
+	width: 100%;
+	height: 20px;
+	border: 1px dashed black;
+	text-align: center;
+	padding: 10px;
+	border-radius: 10px;
+}
+.strong {
+	font-weight: 1000;
+}
+.fa-plus-square {
+	margin-left: 10px;
+}
+.more-pay__btn {
+	margin-top: var(--horizontal-space);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.more-pay__btn-pay {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	width: 100px;
+	height: 30px;
+	border-radius: 15px;
+	border: 1px solid black;
+}
